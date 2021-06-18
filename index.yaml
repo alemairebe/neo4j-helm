@@ -30,6 +30,31 @@ entries:
   neo4j-backup:
   - apiVersion: v1
     appVersion: 4.2.7
+    created: "2021-06-18T12:10:39.68369099Z"
+    description: Neo4j Backup Utility
+    digest: 465942060bc4dde6eafd2ab4f460325698db8a2f77635571bc4e17fb7332cc49
+    home: https://www.neo4j.com
+    icon: http://info.neo4j.com/rs/773-GON-065/images/neo4j_logo.png
+    keywords:
+    - graph
+    - database
+    - cypher
+    - backup
+    maintainers:
+    - email: david.allen@neo4j.com
+      name: moxious
+    - email: bledi.feshti@neo4j.com
+      name: bfeshti
+    - email: mark.needham@neo4j.com
+      name: mneedham
+    name: neo4j-backup
+    sources:
+    - https://github.com/neo4j-contrib/neo4j-helm/tools/backup
+    urls:
+    - https://github.com/alemairebe/neo4j-helm/releases/download/neo4j-backup-4.2.7-6/neo4j-backup-4.2.7-6.tgz
+    version: 4.2.7-6
+  - apiVersion: v1
+    appVersion: 4.2.7
     created: "2021-06-18T11:52:42.729774151Z"
     description: Neo4j Backup Utility
     digest: f78c1ec44a23da8e852a981d455708c396ef8f0953ec66d751a415c9b5223c59
@@ -128,4 +153,4 @@ entries:
     urls:
     - https://github.com/alemairebe/neo4j-helm/releases/download/neo4j-backup-4.2.7-2/neo4j-backup-4.2.7-2.tgz
     version: 4.2.7-2
-generated: "2021-06-18T11:52:42.729994254Z"
+generated: "2021-06-18T12:10:39.683733992Z"
