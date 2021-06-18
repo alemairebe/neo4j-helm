@@ -10,7 +10,7 @@ database: neo4j,system
 # cloudProvider can be either gcp, aws, or azure
 cloudProvider: gcp
 # set secretName to NULL if using workload-identity in gcp
-secretName: "neo4j-gcp-credentials"
+secretName: null
 pageCache: 2G
 heapSize: 2G
 fallbackToFull: "true"
