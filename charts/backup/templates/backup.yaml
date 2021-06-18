@@ -62,6 +62,8 @@ spec:
                   value: "{{ .Values.checkLabelScanStore }}"
                 - name: CHECK_PROPERTY_OWNERS
                   value: "{{ .Values.checkPropertyOwners }}"
+                - name: REMOVE_EXISTING_FILES
+                  value: "{{ .Values.removeExistingFiles }}"
               volumeMounts:
                 {{- if .Values.secretName }}
                 - name: credentials

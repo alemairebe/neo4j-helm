@@ -18,6 +18,7 @@ checkConsistency: "true"
 checkIndexes: "true"
 checkGraph: "true"
 checkLabelScanStore: "true"
+removeExistingFiles: "true"
 checkPropertyOwners: "false"
 jobSchedule: "0 */12 * * *"
 
