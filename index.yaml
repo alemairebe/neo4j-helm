@@ -1,6 +1,58 @@
 apiVersion: v1
 entries:
+  neo4j:
+  - apiVersion: v1
+    appVersion: 4.2.7
+    created: "2021-06-18T11:06:43.159777824Z"
+    description: Neo4j is the world's leading graph database
+    digest: 160a57494a451a1bfb60dd605e6c0f4467a7695281de50473ef2414b0f7795ea
+    home: https://www.neo4j.com
+    icon: http://info.neo4j.com/rs/773-GON-065/images/neo4j_logo.png
+    keywords:
+    - graph
+    - database
+    - cypher
+    maintainers:
+    - email: david.allen@neo4j.com
+      name: moxious
+    - email: bledi.feshti@neo4j.com
+      name: bfeshti
+    - email: mark.needham@neo4j.com
+      name: mneedham
+    name: neo4j
+    sources:
+    - https://github.com/neo4j/neo4j
+    - https://github.com/neo4j/docker-neo4j
+    - https://github.com/neo4j-contrib/neo4j-helm
+    urls:
+    - https://github.com/alemairebe/neo4j-helm/releases/download/neo4j-4.2.7-3/neo4j-4.2.7-3.tgz
+    version: 4.2.7-3
   neo4j-backup:
+  - apiVersion: v1
+    appVersion: 4.2.7
+    created: "2021-06-18T11:06:43.256893996Z"
+    description: Neo4j Backup Utility
+    digest: a616a6c8bf3999ad496e2203354cb8eb7db69a575f412a4fb8b70930a1338bf4
+    home: https://www.neo4j.com
+    icon: http://info.neo4j.com/rs/773-GON-065/images/neo4j_logo.png
+    keywords:
+    - graph
+    - database
+    - cypher
+    - backup
+    maintainers:
+    - email: david.allen@neo4j.com
+      name: moxious
+    - email: bledi.feshti@neo4j.com
+      name: bfeshti
+    - email: mark.needham@neo4j.com
+      name: mneedham
+    name: neo4j-backup
+    sources:
+    - https://github.com/neo4j-contrib/neo4j-helm/tools/backup
+    urls:
+    - https://github.com/alemairebe/neo4j-helm/releases/download/neo4j-backup-4.2.7-3/neo4j-backup-4.2.7-3.tgz
+    version: 4.2.7-3
   - apiVersion: v1
     appVersion: 4.2.7
     created: "2021-06-18T09:06:33.630045696Z"
@@ -26,4 +78,4 @@ entries:
     urls:
     - https://github.com/alemairebe/neo4j-helm/releases/download/neo4j-backup-4.2.7-2/neo4j-backup-4.2.7-2.tgz
     version: 4.2.7-2
-generated: "2021-06-18T09:06:33.630129297Z"
+generated: "2021-06-18T11:06:43.256914996Z"
