@@ -20,7 +20,6 @@ checkGraph: "true"
 checkLabelScanStore: "true"
 removeExistingFiles: "true"
 checkPropertyOwners: "false"
-removeExistingFiles: "true"
 removeBackupFiles: "true"
 jobSchedule: "0 */12 * * *"
 
